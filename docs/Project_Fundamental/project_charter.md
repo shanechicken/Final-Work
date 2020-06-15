@@ -3,6 +3,7 @@
 > Proudly Presented by Invincible Inc.
 
 *Ultimate Project将会是项目管理工具的终极解决方案，它拥有当前所有项目管理软件的主流功能，成为项目管理软件的集大成者，并在此基础上增加能提升项目管理效率的功能/组件，让用户做出极致的项目管理工作。*
+
 ______
 
 **项目名称**：Ultimate Project – The Ultimate Tool for PM
@@ -65,7 +66,7 @@ ______
 | George Wang      	| [farthjun](https://github.com/farthjun)            	| 13539062145@163.com     	| 客户经理、数据库DBA      	| 客户经理：客户访问&需求调查、客户分析与分类or数据库DBA：设计、安装、监控数据库             	|
 | Spike            	| [yaorangtayi](https://github.com/yaorangtayi)         	| 1033720276@qq.com       	| UI/UX设计师              	| 更喜欢搞UI这些                                                                             	|
 | Axing            	| [xy1998921](https://github.com/xy1998921)           	| 312618502@qq.com        	| 产品经理                 	| 线框图，原型设计                                                                           	|
-| Jim Chan         	| [ChanKimFung](https://github.com/ChanKimFung)         	| 543600432@qq.com        	| 客户经理、产品经理        	| 因为代码能力非常非常薄弱，可能只能负责一些管理岗位，或者优化界面一类的工作                 	|
+| Jim Chan         	| [ChanKimFung](https://github.com/ChanKimFung)         	| 543600432@qq.com        	| 客户经理，产品经理        	| 因为代码能力非常非常薄弱，可能只能负责一些管理岗位，或者优化界面一类的工作                 	|
 
 ------
 
