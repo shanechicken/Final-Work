@@ -9,7 +9,7 @@
     - [1. 项目章程](#1-项目章程)
     - [2. 项目管理计划](#2-项目管理计划)
     - [3. 调查初步需求](#3-调查初步需求)
-    - [4. “收集需求”的方法 文档和PPT](#4-收集需求的方法-文档和ppt)
+    - [4. “收集需求”的方法、过程与涉及的技术与工具 文档和PPT](#4-收集需求的方法过程与涉及的技术与工具-文档和ppt)
 
 
 
@@ -50,7 +50,7 @@
 
 调查初步需求：王思博、吴明章
 
-### 4. “收集需求”的方法 文档和PPT
+### 4. “收集需求”的方法、过程与涉及的技术与工具 文档和PPT
 
 文档是 `docs/Practice_and_Research/requirements_gathering_methods.md`，[https://invincible-inc.github.io/Final-Work/docs/Practice_and_Research/requirements_gathering_methods](https://invincible-inc.github.io/Final-Work/docs/Practice_and_Research/requirements_gathering_methods)。可以根据提示完成。
 
