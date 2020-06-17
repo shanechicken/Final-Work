@@ -52,9 +52,9 @@
 
 ### 4. “收集需求”的方法、过程与涉及的技术与工具 文档和PPT
 
-文档是 `docs/Practice_and_Research/requirements_gathering_methods.md`，[https://invincible-inc.github.io/Final-Work/docs/Practice_and_Research/requirements_gathering_methods](https://invincible-inc.github.io/Final-Work/docs/Practice_and_Research/requirements_gathering_methods)。可以根据提示完成。
+文档是 `docs/Practice_and_Research/requirements_gathering_methods.md`，博客页面链接：[https://invincible-inc.github.io/Final-Work/docs/Practice_and_Research/requirements_gathering_methods](https://invincible-inc.github.io/Final-Work/docs/Practice_and_Research/requirements_gathering_methods)。可以根据提示完成。
 
-PPT稍后安排。
+PPT腾讯文档链接：[https://docs.qq.com/slide/DYm11dW1vS21iRG9j](https://docs.qq.com/slide/DYm11dW1vS21iRG9j)。
 
 “收集需求”的方法 文档和PPT：温卓沛、幸赟、王嘉浚、顾子杉
 
