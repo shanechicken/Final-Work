@@ -62,7 +62,7 @@ ______
 | Aivo             	| [Aivo520](https://github.com/Aivo520)             	| 1730174410@qq.com       	| 产品经理，数据库DBA      	| 后台开发                                                                                   	|
 | carroll          	| [SantanderAuhAuh](https://github.com/SantanderAuhAuh)     	| 18395595489@163.com     	| js工程师                 	| 前端开发                                                                                   	|
 | Prince Bear      	| [wzx971127](https://github.com/wzx971127)           	| 673730136@qq.com        	| 项目经理，Java工程师     	| 移动端开发（Android）                                                                      	|
-| TD Wen           	| [desperateofstruggle](https://github.com/desperateofstruggle) 	| 1421166369@qq.com       	| 数据库DBA                	| 数据库管理监控升级调优等因上一题注明只能选一项技术岗，此处补充可java工程师——模块功能研发等 	|
+| TD Wen           	| [desperateofstruggle](https://github.com/desperateofstruggle) 	| 1421166369@qq.com       	| 数据库DBA                	| 数据库管理监控升级调优等及后台开发 	|
 | George Wang      	| [farthjun](https://github.com/farthjun)            	| 13539062145@163.com     	| 客户经理、数据库DBA      	| 客户经理：客户访问&需求调查、客户分析与分类or数据库DBA：设计、安装、监控数据库             	|
 | Spike            	| [yaorangtayi](https://github.com/yaorangtayi)         	| 1033720276@qq.com       	| UI/UX设计师              	| 更喜欢搞UI这些                                                                             	|
 | Axing            	| [xy1998921](https://github.com/xy1998921)           	| 312618502@qq.com        	| 产品经理                 	| 线框图，原型设计                                                                           	|
