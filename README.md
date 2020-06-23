@@ -32,7 +32,7 @@
 请大家在**06.23**中午12:00前完成并push到仓库，留一天时间整合、检查。
 
 ### 1. 项目章程
-已完成
+已完成。博客页面链接：[https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/project_charter](https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/project_charter)
 
 ### 2. 项目管理计划
 项目管理计划是 `docs/Project_Fundamental/project_management_plan.md`，博客页面链接：[https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/project_management_plan](https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/project_management_plan) 其中有六个部分，可以根据提示完成，言之有理、叙述完整清楚即可。
