@@ -5,7 +5,6 @@
   - [问卷调查](#问卷调查)
   - [用户访谈](#用户访谈)
   - [标杆对照](#标杆对照)
-=======
 
 ---
 ## **头脑风暴集体会议**
@@ -245,7 +244,7 @@
       - Zoho Projects、CORNERSTONE、TAPD
 
     - **3. 收集分析数据**
-      - 见 https://invincible-inc.github.io/Second-Ordinary-Work/Products/business_case
+      - 见[竞品功能分析](https://invincible-inc.github.io/Second-Ordinary-Work/Products/business_case)
     
     - **4. 确定行动目标**
       - Zoho Projects、CORNERSTONE、TAPD
@@ -265,7 +264,7 @@
             - 仪表盘
           - **构建交付**
             - DevOps
-      - 详见 https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/requirements
+      - 详见[需求分析](https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/requirements)
 
   - **标杆对照需要关注的问题**
 
