@@ -247,7 +247,7 @@
       - 见[竞品功能分析](https://invincible-inc.github.io/Second-Ordinary-Work/Products/business_case)
     
     - **4. 确定行动目标**
-      - Zoho Projects、CORNERSTONE、TAPD
+      - 在分析竞品后我们认为TAPD和我们实际想要开发的产品更加贴近，所以具体需求将以TAPD为主，Zoho Projects和CORNERSTONE为辅来确定。
     
     - **5. 实施计划和跟踪结果**
       - 经过实践，本产品的核心功能应该包括：
