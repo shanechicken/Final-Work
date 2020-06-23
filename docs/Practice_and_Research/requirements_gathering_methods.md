@@ -1,18 +1,11 @@
 # 需求收集的方法、过程与涉及的技术与工具
 
-<<<<<<< HEAD
 - [需求收集的方法、过程与涉及的技术与工具](#需求收集的方法、过程与涉及的技术与工具)
   - [“头脑风暴”集体会议](#头脑风暴集体会议)
   - [问卷调查](#问卷调查)
   - [用户访谈](#用户访谈)
   - [标杆对照](#标杆对照)
 =======
-
-- [需求收集的方法、过程与涉及的技术与工具](#需求收集的方法过程与涉及的技术与工具)
-  - [**头脑风暴集体会议**](#头脑风暴集体会议)
-  - [**问卷调查**](#问卷调查)
-  - [**用户访谈**](#用户访谈)
->>>>>>> e74344b78e87cf1f46d3e157b8b238312aaa9c5c
 
 ---
 ## **头脑风暴集体会议**
@@ -246,33 +239,33 @@
   - **标杆对照的一般步骤以及在本项目中的实践**
 
     - **1. 确定内容**
-      业内常用的开发手段所形成的需求。
+      - 业内常用的开发手段所形成的需求。
 
     - **2. 选择目标**
-      Zoho Projects、CORNERSTONE、TAPD
+      - Zoho Projects、CORNERSTONE、TAPD
 
     - **3. 收集分析数据**
-      见 https://invincible-inc.github.io/Second-Ordinary-Work/Products/business_case
+      - 见 https://invincible-inc.github.io/Second-Ordinary-Work/Products/business_case
     
     - **4. 确定行动目标**
-      Zoho Projects、CORNERSTONE、TAPD
+      - Zoho Projects、CORNERSTONE、TAPD
     
     - **5. 实施计划和跟踪结果**
-      经过实践，本产品的核心功能应该包括：
-      - **协作沟通**
-        - 论坛交流
-      - **项目计划管理**
-        - 看板
-        - 蓝图
-        - 任务分配
-        - 工时管理
-        - Bug管理
-      - **项目报表功能**
-        - 在线文档
-        - 仪表盘
-      - **构建交付**
-        - DevOps
-      详见 https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/requirements
+      - 经过实践，本产品的核心功能应该包括：
+          - **协作沟通**
+            - 论坛交流
+          - **项目计划管理**
+            - 看板
+            - 蓝图
+            - 任务分配
+            - 工时管理
+            - Bug管理
+          - **项目报表功能**
+            - 在线文档
+            - 仪表盘
+          - **构建交付**
+            - DevOps
+      - 详见 https://invincible-inc.github.io/Final-Work/docs/Project_Fundamental/requirements
 
   - **标杆对照需要关注的问题**
 
