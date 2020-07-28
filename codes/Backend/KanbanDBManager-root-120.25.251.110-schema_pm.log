@@ -1,0 +1,468 @@
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_2' for key 'PRIMARY'")
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_2' for key 'PRIMARY'")
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
+ERROR:root:error in create_inprogress_task: (1062, "Duplicate entry 'project_1-task_222' for key 'PRIMARY'")
+ERROR:root:error in create_done_task: (1062, "Duplicate entry 'project_1-task_333' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_2' for key 'PRIMARY'")
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
+ERROR:root:error in create_inprogress_task: (1062, "Duplicate entry 'project_1-task_222' for key 'PRIMARY'")
+ERROR:root:error in create_done_task: (1062, "Duplicate entry 'project_1-task_333' for key 'PRIMARY'")
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:18] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[1m[35mGET /signin?project_id=project_1&password=123456 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[37mGET /signin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[37mGET /signin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[37mGET /signin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[37mGET /signin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[37mGET /signin?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:42] "[37mGET /signin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:25:55] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:26:41] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:26:56] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:04] "[33mGET /signin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[1m[35mGET /signin HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[37mGET /signin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[37mGET /signin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[37mGET /signin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[37mGET /signin?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[37mGET /signin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:17] "[37mGET /signin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:33] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:27:52] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:29:49] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:29:51] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:29:54] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:35] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:36] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:36] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:39] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:30:39] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:31:13] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:31:23] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:31:50] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:34:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[1m[35mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[37mGET /signin/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[37mGET /signin/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[37mGET /signin/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[37mGET /signin/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[37mGET /signin/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:35:41] "[37mGET /signin/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:36:02] "[33mGET /signin//?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:36:13] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:36:23] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:36:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:36:26] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:36:53] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:40:39] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:40:56] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:42:43] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:46:49] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:49:37] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:50:49] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:51:16] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:52:26] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:53:03] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 301-974-925
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:59:28] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/apple/Documents/学科/IT项目管理/Final-Work/codes/Backend/Kanban_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:59:44] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 13:59:57] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:00:12] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:02:43] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:02:48] "[33mGET /signin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:02:52] "[33mGET /signin HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:03:00] "[33mGET /signin HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:03:20] "[32mGET /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:03:20] "[37mGET /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:03:59] "[32mGET /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:03:59] "[37mGET /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:04:56] "[37mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:05:24] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+ERROR:Kanban_api:Exception on /signin/ [GET]
+Traceback (most recent call last):
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+TypeError: get() missing 2 required positional arguments: 'project_id' and 'password'
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:05:56] "[1m[35mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:07:51] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:08:02] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:11:38] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:14:52] "[33mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:15:54] "[37mGET /signin/?project_id=project_1&password=123456 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:23:24] "[1m[31mPOST /signin/ HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:26:24] "[1m[31mPOST /signin/ HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:29:35] "[1m[31mPOST /signin/ HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:30:48] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:31:22] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:31:50] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:31:52] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:32:05] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:34:43] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:35:26] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:35:26] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:35:39] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:35:39] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:35:41] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:36:27] "[33mPOST /signin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:39:15] "[33mPOST /signin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:39:24] "[33mPOST /signin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:39:42] "[33mPOST /signin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:39:53] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:40:15] "[32mPOST /signin HTTP/1.1[0m" 308 -
+ERROR:Kanban_api:Exception on /signin/ [POST]
+Traceback (most recent call last):
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/views.py", line 163, in dispatch_request
+    return meth(*args, **kwargs)
+  File "Kanban_api.py", line 29, in post
+    print(json_data.get("project_id"))
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:40:15] "[1m[35mPOST /signin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:41:03] "[32mPOST /signin HTTP/1.1[0m" 308 -
+ERROR:Kanban_api:Exception on /signin/ [POST]
+Traceback (most recent call last):
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/apple/anaconda3/envs/tensorflow1/lib/python3.6/site-packages/flask/views.py", line 163, in dispatch_request
+    return meth(*args, **kwargs)
+  File "Kanban_api.py", line 29, in post
+    print(json_data.get("project_id"))
+AttributeError: 'NoneType' object has no attribute 'get'
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:41:03] "[1m[35mPOST /signin/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:41:44] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:41:44] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:42:55] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:42:55] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:43:34] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:43:34] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:43:53] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:43:53] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:44:17] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:44:17] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:45:51] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:45:51] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:46:16] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:46:16] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:46:35] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:46:35] "[1m[31mPOST /signin/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:46:54] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:46:54] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:48:02] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:48:02] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:48:42] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:48:42] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:48:54] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:48:54] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:49:17] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:49:17] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:49:58] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:49:58] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:50:19] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:50:19] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:51:23] "[32mPOST /signup HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:51:23] "[1m[31mPOST /signup/ HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:51:56] "[32mPOST /signup HTTP/1.1[0m" 308 -
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:51:56] "[37mPOST /signup/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:52:03] "[32mPOST /signup HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:52:03] "[37mPOST /signup/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:52:43] "[32mPOST /signup HTTP/1.1[0m" 308 -
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_3' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:52:43] "[37mPOST /signup/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:53:44] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:53:45] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:53:46] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:53:46] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:01] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:01] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:23] "[32mPOST /signup HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:23] "[37mPOST /signup/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:31] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:31] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:35] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:35] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:41] "[32mPOST /signup HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:41] "[37mPOST /signup/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:44] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 14:54:44] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:04:47] "[1m[31mGET /todo/?project_id=project_1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:05:05] "[1m[31mGET /todo/?project_id=project_1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:05:41] "[1m[31mGET /todo/?project_id=project_1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:07:35] "[33mGET /todo/?project_id=project_1 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:07:53] "[1m[31mGET /todo?project_id=project_1 HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:08:22] "[32mPOST /signup HTTP/1.1[0m" 308 -
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_5' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:08:22] "[37mPOST /signup/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:08:27] "[32mPOST /signin HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:08:27] "[37mPOST /signin/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:09:24] "[1m[31mGET /todo?project_id=project_1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:09:49] "[1m[31mGET /todo?project_id=project_1 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_5' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:10:48] "[37mPOST /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:10:52] "[37mPOST /signin HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:12:17] "[37mGET /todo?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:17:37] "[37mPOST /todo HTTP/1.1[0m" 200 -
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_5-task_1111' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:17:39] "[37mPOST /todo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:20:12] "[33mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:20:57] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:21:24] "[37mGET /done?project_id=project_1 HTTP/1.1[0m" 200 -
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_5-task_1111' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:21:31] "[37mPOST /todo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:21:34] "[37mPOST /todo HTTP/1.1[0m" 200 -
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_5-task_11111' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:21:37] "[37mPOST /todo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:24:57] "[37mPOST /todo HTTP/1.1[0m" 200 -
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_1111' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:24:59] "[37mPOST /todo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:25:12] "[37mPOST /inprogress HTTP/1.1[0m" 200 -
+ERROR:root:error in create_inprogress_task: (1062, "Duplicate entry 'project_1-task_2222' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:25:14] "[37mPOST /inprogress HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:25:25] "[37mPOST /todo HTTP/1.1[0m" 200 -
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_3333' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:25:27] "[37mPOST /todo HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:25:30] "[37mGET /done?project_id=project_1 HTTP/1.1[0m" 200 -
+ERROR:root:error in create_done_task: (1062, "Duplicate entry 'project_1-task_3333' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:25:44] "[37mPOST /done HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_5' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:28:21] "[37mPOST /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:28:47] "[37mGET /todo?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:28:50] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:28:52] "[37mGET /done?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:29:01] "[37mPOST /done HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:33:55] "[37mPUT /task HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:34:52] "[37mPUT /task HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:34:54] "[37mPUT /task HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:43:03] "[37mDELETE /task?project_id=project_1&task_name=task_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:43:07] "[37mDELETE /task?project_id=project_1&task_name=task_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:53:17] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
