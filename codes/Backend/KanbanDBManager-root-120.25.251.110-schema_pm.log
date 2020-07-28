@@ -466,3 +466,4 @@ INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:43:03] "[37mDELETE /task?project_id=project_1&task_name=task_1 HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:43:07] "[37mDELETE /task?project_id=project_1&task_name=task_1 HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [28/Jul/2020 15:53:17] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)

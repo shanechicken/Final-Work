@@ -8,7 +8,6 @@ DB_CONFIG = {
 
 from KanbanDBManager import KanbanDBManager
 from flask import Flask, abort, request, jsonify
-from flask_restful import Resource, Api
 from flask.views import MethodView
 
 kanban_manager = KanbanDBManager(db_config = DB_CONFIG)
