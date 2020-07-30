@@ -28,6 +28,8 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   name: 'LoginOrRegister',
   data () {
@@ -44,6 +46,7 @@ export default {
     }
   },
   methods: {
+    ...mapActions(['login']),
     handleClick (tab, event) {
       console.log(tab, event)
     },
@@ -54,9 +57,23 @@ export default {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(this.LoginData)
-      }).then(res => {
-        console.log(res)
-      })
+      }).then(res => res.json())
+        .then(json => {
+          if (json.message) {
+            this.$message({
+              message: '登录成功',
+              type: 'success',
+              center: true
+            })
+            this.login(true)
+          } else {
+            this.$message({
+              message: '登录失败',
+              type: 'error',
+              center: true
+            })
+          }
+        })
     },
     userRegister () {
       fetch('/api/signup', {
@@ -73,6 +90,8 @@ export default {
               type: 'success',
               center: true
             })
+            this.LoginData = {...this.RegisterData}
+            this.activeTab = 'Login'
           } else {
             this.$message({
               message: '注册失败',

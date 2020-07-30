@@ -9,7 +9,7 @@
 <script>
 import Header from './common/Header'
 import Footer from './common/Footer'
-import Content from './common/Content'
+import Content from './Content'
 
 export default {
   name: 'Index',

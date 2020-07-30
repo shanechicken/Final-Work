@@ -14,6 +14,7 @@ export default {
 html body {
   width: calc(100vw - 16px);
   height: calc(100vh - 16px);
+  min-width: 1000px;
 }
 #app {
   width: 100%;
