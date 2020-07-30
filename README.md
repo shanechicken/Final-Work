@@ -5,6 +5,13 @@
   - [目录结构说明](#目录结构说明)
     - [1. docs目录](#1-docs目录)
     - [2. codes目录](#2-codes目录)
+  - [课件08的团队作业安排（写于2020.07.30）](#课件08的团队作业安排写于20200730)
+    - [0. **\*务必阅读\*** 整体要求](#0-务必阅读-整体要求)
+    - [1. 以软件质量模型为依据，收集系统“非功能”需求与场景](#1-以软件质量模型为依据收集系统非功能需求与场景)
+    - [3. 软件测试](#3-软件测试)
+      - [I. 静态代码分析](#i-静态代码分析)
+      - [II. 单元与集成测试、测试用例](#ii-单元与集成测试测试用例)
+      - [III. CI/CD流水线构建与部署：](#iii-cicd流水线构建与部署)
   - [课件07的团队作业安排（写于2020.07.23）](#课件07的团队作业安排写于20200723)
     - [0. **\*务必阅读\*** 整体要求、阶段总结与DDL](#0-务必阅读-整体要求阶段总结与ddl)
     - [1. 故事板](#1-故事板)
@@ -30,6 +37,55 @@
 
 ### 2. codes目录
 所有代码工程会保存在此目录。
+
+
+## 课件08的团队作业安排（写于2020.07.30）
+
+### 0. **\*务必阅读\*** 整体要求
+记得使用看板。记得填写工作量文档[all_time_work_division.md](./all_time_work_division.md)
+
+### 1. 以软件质量模型为依据，收集系统“非功能”需求与场景
+软件质量模型：
+- [https://blog.51cto.com/9797337/2398173](https://blog.51cto.com/9797337/2398173)
+- [https://www.cnblogs.com/gaochundong/p/software_quality_models.html#quality_model_iso9126](https://www.cnblogs.com/gaochundong/p/software_quality_models.html#quality_model_iso9126)
+
+收集系统“非功能”需求与场景的文档是 `docs/Project_Fundamental/non_func_requirements.md`
+
+收集系统“非功能”需求与场景：黄冠纶、张弛、幸赟、陈剑锋
+
+### 3. 软件测试
+#### I. 静态代码分析
+后端Python代码静态分析：使用Python静态代码分析工具 `flake8` （[使用教程https://www.cnblogs.com/Zzbj/p/11204411.html](https://www.cnblogs.com/Zzbj/p/11204411.html)）分析代码文件即可，将输出整理并记录到文档。后端Python代码在[codes/Backend](./codes/Backend)文件夹中。
+
+后端Python代码静态分析：王嘉浚
+
+前端Javascript代码静态分析：选用Javascript静态代码分析工具分析代码文件即可，将输出整理并记录到文档。
+
+前端Javascript代码静态分析：王思博
+
+静态代码分析的文档是 `docs/Quality/code_static_analysis.md`
+
+#### II. 单元与集成测试、测试用例
+
+后端Python代码：王明业
+
+后端Python代码单元与集成测试、测试用例文档是 `docs/Quality/py_unit_and_integration_testing.md`
+
+前端Javascript代码：张佳蔚，温卓沛
+
+前端Javascript代码单元与集成测试、测试用例文档是 `docs/Quality/js_unit_and_integration_testing.md`
+
+
+
+
+#### III. CI/CD流水线构建与部署：
+
+参考：Github的Actions标签页可构建并部署CI流水线
+
+CI/CD流水线：王子豪，顾子杉，吴明章，王子雄
+
+CI/CD流水线构建与部署文档是：`docs/Quality/CI_CD_deployment.md`
+
 
 
 ## 课件07的团队作业安排（写于2020.07.23）
