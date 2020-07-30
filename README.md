@@ -33,7 +33,9 @@
 ### 1. docs目录
 所有项目文档均储存在此目录.
 
-对于任意一个markown文档A（即文件名后缀是.md的文件），其图片的储存目录应当放在该文档同目录下，并明命名为 `A_image`。 例如 `docs/test.md` 的图片储存目录应当是 `docs/test_image`。
+对于任意一个markown文档A（即文件名后缀是.md的文件），其图片的储存目录应当放在该文档同目录下，并明命名为 `A_image`。 例如 `docs/test.md` 的图片储存目录应当是 `docs/test_image`。\
+
+历次会议纪要：[docs/Project_Fundamental/meeting_summary.md](./docs/Project_Fundamental/meeting_summary.md)
 
 ### 2. codes目录
 所有代码工程会保存在此目录。
