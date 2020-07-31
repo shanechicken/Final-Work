@@ -18,6 +18,4 @@ db_connection = pymysql.connect(host = db_config["host"],
                                 password = db_config["password"], 
                                 database = db_config["database"])
 
-
-
 db_connection.close()
