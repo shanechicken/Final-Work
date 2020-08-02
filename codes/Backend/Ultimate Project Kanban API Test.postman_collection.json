@@ -1,0 +1,336 @@
+{
+	"info": {
+		"_postman_id": "2ed4908a-71ac-4df8-8e54-9dfb173a4b0e",
+		"name": "Ultimate Project Kanban API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "注册与登录",
+			"item": [
+				{
+					"name": "signin登录",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"project_id\": \"project_1\",\n    \"password\": \"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8383/signin",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signup注册",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"project_id\": \"project_4\",\n    \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "127.0.0.1:8383/signup",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"signup"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取任务信息",
+			"item": [
+				{
+					"name": "todo获取todo任务",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "inprogress获取inprogress任务",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8383/inprogress?project_id=project_1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"inprogress"
+							],
+							"query": [
+								{
+									"key": "project_id",
+									"value": "project_1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "done获取done任务",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8383/done?project_id=project_1",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"done"
+							],
+							"query": [
+								{
+									"key": "project_id",
+									"value": "project_1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "创建任务",
+			"item": [
+				{
+					"name": "todo创建todo任务",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Conten-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"project_id\": \"project_5\",\n    \"task_name\": \"task_1111\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8383/todo",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"todo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "inprogress创建inprogress任务",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Conten-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"project_id\": \"project_5\",\n    \"task_name\": \"task_1111\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8383/todo",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"todo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "done创建done任务",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Conten-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"project_id\": \"project_1\",\n    \"task_name\": \"task_33333\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "127.0.0.1:8383/done",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8383",
+							"path": [
+								"done"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "task更改任务状态",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"project_id\": \"project_1\",\n    \"task_name\": \"task_1\",\n    \"new_status\": 2\n}"
+				},
+				"url": {
+					"raw": "127.0.0.1:8383/task",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8383",
+					"path": [
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "task删除任务",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8383/task?project_id=project_1&task_name=task_1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8383",
+					"path": [
+						"task"
+					],
+					"query": [
+						{
+							"key": "project_id",
+							"value": "project_1"
+						},
+						{
+							"key": "task_name",
+							"value": "task_1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

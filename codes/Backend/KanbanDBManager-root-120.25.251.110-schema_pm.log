@@ -1,0 +1,84 @@
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:8383/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:23:22] "[37mGET /todo?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:23:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:120.230.160.26 - - [28/Jul/2020 16:23:42] "[37mGET /todo?project_id=project_1&nsukey=Js9Wmub%2F%2Fj7kUR0ts3EkGihOA0r1ZP5PYeNDVtfEgyFiGOB46v7KPumIfjCMyd9UjudOAFzNmjI9FGtod5P9ulyaIUboZiy8xe5DG0gBd3p6LchMX1lSvgps7bFVhHePBncVR1LFsT4xNEteZY%2B5hNsnQVee83ndrLXb1ctcbomcAq%2BvMvHZNWW0o5DNIXj07543fJR61MKAAq1dZQxRxw%3D%3D HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:25:35] "[37mGET /todo?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:25:40] "[37mGET /todo?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:25:56] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:26:08] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.40.193 - - [28/Jul/2020 16:26:17] "[37mGET /inprogress?project_id=project_5 HTTP/1.1[0m" 200 -
+INFO:werkzeug:58.60.2.177 - - [28/Jul/2020 16:27:19] "[37mGET /inprogress?project_id=project_5 HTTP/1.1[0m" 200 -
+INFO:werkzeug:58.60.2.177 - - [28/Jul/2020 16:27:24] "[37mGET /inprogress?project_id=project_5 HTTP/1.1[0m" 200 -
+INFO:werkzeug:58.60.2.177 - - [28/Jul/2020 16:27:28] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:101.89.29.78 - - [28/Jul/2020 16:35:46] "[37mGET /todo?project_id=project_1&nsukey=Js9Wmub%2F%2Fj7kUR0ts3EkGihOA0r1ZP5PYeNDVtfEgyFiGOB46v7KPumIfjCMyd9UjudOAFzNmjI9FGtod5P9ulyaIUboZiy8xe5DG0gBd3p6LchMX1lSvgps7bFVhHePBncVR1LFsT4xNEteZY%2B5hNsnQVee83ndrLXb1ctcbomcAq%2BvMvHZNWW0o5DNIXj07543fJR61MKAAq1dZQxRxw%3D%3D HTTP/1.1[0m" 200 -
+INFO:werkzeug:120.230.160.26 - - [28/Jul/2020 16:44:40] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:120.230.160.26 - - [28/Jul/2020 16:44:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:47.98.104.143 - - [28/Jul/2020 17:52:34] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:root:error in get_inprogress_task: (2013, 'Lost connection to MySQL server during query')
+INFO:werkzeug:120.230.160.26 - - [29/Jul/2020 01:46:33] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:59.37.97.53 - - [29/Jul/2020 01:58:30] "[37mGET /todo?project_id=project_1 HTTP/1.0[0m" 200 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:117.136.12.88 - - [29/Jul/2020 01:59:24] "[37mGET /todo?project_id=project_1&nsukey=tKJL0NVoLU8LR3khUIxyutQ7RFElYhBHWc9877QIDC12nV8tlDjmtYxtwVj4Tk8iAwJBb%2FSDSETxZpspuNE2KDITc2cpGRTRQZkn4g%2BeRZCYW8rPG1y5m5YYHQCfbwXk4J81TBep7aJx%2FkicnYH%2BsuQRwGLA4LdRIjxzYNRyLT2fdmbt2mlnRgTi5lWmtjFeB8OprEgOa9yifT38GfQ5Fg%3D%3D HTTP/1.1[0m" 200 -
+INFO:werkzeug:117.136.12.88 - - [29/Jul/2020 01:59:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:61.151.207.186 - - [29/Jul/2020 02:00:24] "[37mGET /todo?project_id=project_1&nsukey=tKJL0NVoLU8LR3khUIxyutQ7RFElYhBHWc9877QIDC12nV8tlDjmtYxtwVj4Tk8iAwJBb%2FSDSETxZpspuNE2KDITc2cpGRTRQZkn4g%2BeRZCYW8rPG1y5m5YYHQCfbwXk4J81TBep7aJx%2FkicnYH%2BsuQRwGLA4LdRIjxzYNRyLT2fdmbt2mlnRgTi5lWmtjFeB8OprEgOa9yifT38GfQ5Fg%3D%3D HTTP/1.1[0m" 200 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:112.80.254.17 - - [29/Jul/2020 02:20:25] "[37mGET /todo?project_id=project_1 HTTP/1.1[0m" 200 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:120.230.160.26 - - [29/Jul/2020 02:49:20] "[37mGET /todo?project_id=project_1&nsukey=zLFPpJEoQWBT7bMHBHZcvn5rKPkb%2FdbKhZvjAs3GnU6lFMTSyDZqzXrzqKuQOh3H9TqueybEwAYoq%2F9zJkC43W%2Bex3g6UANJAhrV4BH1dCPw%2FcYDh9HQAP%2FFFjIYkL9Wez%2FXKEP4htNWA8%2FjaVQnfg34%2FjX%2F9BLBMgMpKhJHcRqkF7aU4t1PwFtgmMsvQ8OLuCi1XQcXIgR%2BkR3vp3%2FARg%3D%3D HTTP/1.1[0m" 200 -
+INFO:werkzeug:120.230.160.26 - - [29/Jul/2020 02:49:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:101.91.62.99 - - [29/Jul/2020 02:50:20] "[37mGET /todo?project_id=project_1&nsukey=zLFPpJEoQWBT7bMHBHZcvn5rKPkb%2FdbKhZvjAs3GnU6lFMTSyDZqzXrzqKuQOh3H9TqueybEwAYoq%2F9zJkC43W%2Bex3g6UANJAhrV4BH1dCPw%2FcYDh9HQAP%2FFFjIYkL9Wez%2FXKEP4htNWA8%2FjaVQnfg34%2FjX%2F9BLBMgMpKhJHcRqkF7aU4t1PwFtgmMsvQ8OLuCi1XQcXIgR%2BkR3vp3%2FARg%3D%3D HTTP/1.1[0m" 200 -
+ERROR:Kanban_api:Exception on /signin [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.5/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/flask/views.py", line 163, in dispatch_request
+    return meth(*args, **kwargs)
+  File "Kanban_api.py", line 26, in post
+    return jsonify({"message": kanban_manager.sign_in_project(json_data["project_id"], json_data["password"])})
+KeyError: 'project_id'
+INFO:werkzeug:121.35.103.163 - - [29/Jul/2020 05:04:50] "[35m[1mPOST /signin HTTP/1.1[0m" 500 -
+ERROR:root:error in sign_in_project: (0, '')
+INFO:werkzeug:121.35.103.163 - - [29/Jul/2020 05:07:53] "[37mPOST /signin HTTP/1.1[0m" 200 -
+ERROR:root:error in sign_up_project: (0, '')
+INFO:werkzeug:121.35.103.163 - - [29/Jul/2020 05:08:14] "[37mPOST /signup HTTP/1.1[0m" 200 -
+ERROR:root:error in get_todo_task: (0, '')
+INFO:werkzeug:101.91.62.89 - - [29/Jul/2020 07:00:24] "[37mGET /todo?project_id=project_1&nsukey=pf5eFbNg3d2r6WvR5xJ0btmvNQhmwWvONoAmVDVAo7iUMifpe8LbWp7345qKSfBDbbh5PMFkliNnco6pkimZdKYxDTrFbVLptIe5KqOzf5HeWv2ObT2BU78lQOsHc1DaUw7bucwNgUzvqBY54DlAug%3D%3D HTTP/1.1[0m" 200 -
+INFO:werkzeug:210.52.224.199 - - [29/Jul/2020 13:22:23] "[33mGET / HTTP/1.0[0m" 404 -
+INFO:werkzeug:210.52.224.199 - - [29/Jul/2020 13:50:01] "[33mGET / HTTP/1.1[0m" 404 -
+ERROR:root:error in sign_up_project: (0, '')
+INFO:werkzeug:120.232.182.131 - - [29/Jul/2020 21:19:53] "[37mPOST /signup HTTP/1.1[0m" 200 -
+ERROR:root:error in sign_up_project: (0, '')
+INFO:werkzeug:120.232.182.131 - - [29/Jul/2020 21:20:09] "[37mPOST /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2020 21:24:30] "[37mPOST /signup HTTP/1.1[0m" 200 -
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'test1' for key 'PRIMARY'")
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2020 21:30:08] "[37mPOST /signup HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2020 21:41:55] "[37mPOST /signin HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2020 21:42:11] "[37mPOST /todo HTTP/1.1[0m" 200 -
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_2' for key 'PRIMARY'")
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
+ERROR:root:error in create_inprogress_task: (1062, "Duplicate entry 'project_1-task_222' for key 'PRIMARY'")
+ERROR:root:error in create_done_task: (1062, "Duplicate entry 'project_1-task_333' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_1' for key 'PRIMARY'")
+ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_2' for key 'PRIMARY'")
+ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
+ERROR:root:error in create_inprogress_task: (1062, "Duplicate entry 'project_1-task_222' for key 'PRIMARY'")
+ERROR:root:error in create_done_task: (1062, "Duplicate entry 'project_1-task_333' for key 'PRIMARY'")
