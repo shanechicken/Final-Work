@@ -1,5 +1,6 @@
 const state = {
-  hasLogin: false
+  hasLogin: false,
+  projectId: ''
 }
 
 export default state

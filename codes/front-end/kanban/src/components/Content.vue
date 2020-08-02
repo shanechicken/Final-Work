@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .ContentContainer {
   width: 100%;
   height: calc(100% - 7rem - 16px);
