@@ -65,7 +65,7 @@ export default {
               type: 'success',
               center: true
             })
-            this.login(true)
+            this.login(this.LoginData.project_id)
           } else {
             this.$message({
               message: '登录失败',
