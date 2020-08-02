@@ -82,3 +82,7 @@ ERROR:root:error in sign_up_project: (1062, "Duplicate entry 'project_2' for key
 ERROR:root:error in create_todo_task: (1062, "Duplicate entry 'project_1-task_111' for key 'PRIMARY'")
 ERROR:root:error in create_inprogress_task: (1062, "Duplicate entry 'project_1-task_222' for key 'PRIMARY'")
 ERROR:root:error in create_done_task: (1062, "Duplicate entry 'project_1-task_333' for key 'PRIMARY'")
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:8383/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2020 22:37:36] "[37mGET /inprogress?project_id=project_1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2020 22:37:45] "[37mGET /done?project_id=project_1 HTTP/1.1[0m" 200 -

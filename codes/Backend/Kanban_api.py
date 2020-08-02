@@ -38,7 +38,7 @@ app.add_url_rule('/todo', view_func = ToDo.as_view(name='todo'))
 class InProgress(MethodView):
     def get(self):
         project_id = str(request.args["project_id"])
-        return jsonify({"todo": kanban_manager.get_inprogress_task(project_id)})
+        return jsonify({"inprogress": kanban_manager.get_inprogress_task(project_id)})
     def post(self):
         json_data = request.get_json(force=True)
         return jsonify({"message": kanban_manager.create_inprogress_task(json_data["project_id"], json_data["task_name"])})
@@ -47,7 +47,7 @@ app.add_url_rule('/inprogress', view_func = InProgress.as_view(name='inprogress'
 class Done(MethodView):
     def get(self):
         project_id = str(request.args["project_id"])
-        return jsonify({"todo": kanban_manager.get_done_task(project_id)})
+        return jsonify({"done": kanban_manager.get_done_task(project_id)})
     def post(self):
         json_data = request.get_json(force=True)
         return jsonify({"message": kanban_manager.create_done_task(json_data["project_id"], json_data["task_name"])})
@@ -64,4 +64,4 @@ class Task(MethodView):
 app.add_url_rule('/task', view_func = Task.as_view(name='task'))
 
 if __name__ == '__main__':
-    app.run(host = "127.0.0.1", port = 8383)
+    app.run(host = "0.0.0.0", port = 8383)
