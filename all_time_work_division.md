@@ -52,7 +52,7 @@
 - 对项目管理软件进行对比分析。
 - 体验Zoho Projects软件的功能，并做出产品特色的报告。100%
 - 整理出Zoho Projects软件支持的业务。100%
-- 整理出oho Projects软件内含的实用工具。100%
+- 整理出Zoho Projects软件内含的实用工具。100%
 - PPT制作：PART ONE 产品分析与对比Zoho Projects部分。100%
 
 ### Name StudentID
