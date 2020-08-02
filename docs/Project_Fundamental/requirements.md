@@ -32,7 +32,7 @@
 
 ![小组会议-预定](requirements_image/小组会议-预定.png)
 
-![小组会议-预定](requirements_image/小组会议-加入.png)
+![小组会议-加入](requirements_image/小组会议-加入.png)
 
 ### 功能2：论坛交流
 
