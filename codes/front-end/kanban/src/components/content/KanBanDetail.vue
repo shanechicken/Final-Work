@@ -146,9 +146,9 @@ export default {
               project_id: this.projectId,
               task_name: $(el).attr('title'),
               new_status: {
-                todo: 0,
-                inprogress: 1,
-                done: 2
+                todo: 1,
+                inprogress: 2,
+                done: 3
               }[$(el).parent()[0].id]
             })
           }).then(res => res.json())
@@ -198,7 +198,6 @@ export default {
             break
           case 'inprogress':
             this.inProgressList = json[type]
-            console.log(this.inProgressList)
             break
           case 'done':
             this.doneList = json[type]
