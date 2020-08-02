@@ -3,16 +3,16 @@
 ![](https://github.com/Invincible-Inc/Final-Work/blob/master/docs/Project_Fundamental/non_func_requirements_image/1.png)
 
 ### 1.功能适用性
-
+ - 定义：当软件在指定条件下使用时，软件产品提供满足明确和隐含需要的功能的能力。
  - 功能完整性(functional completeness)：是否覆盖所有主要case；需求明确提出的case覆盖比例；隐含case覆盖量。
- - 功能正确性(functional correctness)：所有case(明确与隐含)的正确比例
- - 功能方便性(functional appropriateness)：用户通过该软件完成其目标的方便程度，所有case的完成步骤的简化程度
+ - 功能正确性(functional correctness)：所有case(明确与隐含)的正确比例。
+ - 功能方便性(functional appropriateness)：用户通过该软件完成其目标的方便程度，所有case的完成步骤的简化程度。
  
 ### 2.性能效率
- 
- - 时间特性(time behaviour): 时间相关的性能
- - 资源占用率(resource utilization)：rom, ram, cpu, gpu, port等资源的占用程度
- - 容量(capacity): 软件能力在空间上的边界
+ - 定义：在规定条件下，相对于所用资源的数量，软件产品可提供适当性能的能力。
+ - 时间特性(time behaviour): 时间相关的性能。
+ - 资源占用率(resource utilization)：rom, ram, cpu, gpu, port等资源的占用程度。
+ - 容量(capacity): 软件能力在空间上的边界。
  
 ### 3.xxxxxxx
  
