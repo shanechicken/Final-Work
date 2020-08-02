@@ -15,7 +15,7 @@
         >
       </div>
       <div class="grid-content" id="todo">
-        <BoxCard v-for="item in toDoList" :key="item" :title="item" />
+        <BoxCard v-for="item in toDoList" :key="item" :title="item" :getCardList="getCardList" />
       </div>
     </div>
     <div class="grid-content-container bg-purple">
@@ -33,7 +33,7 @@
         >
       </div>
       <div class="grid-content" id="inprogress">
-        <BoxCard v-for="item in inProgressList" :key="item" :title="item" />
+        <BoxCard v-for="item in inProgressList" :key="item" :title="item" :getCardList="getCardList" />
       </div>
     </div>
     <div class="grid-content-container bg-purple-light">
@@ -51,7 +51,7 @@
         >
       </div>
       <div class="grid-content" id="done">
-        <BoxCard v-for="item in doneList" :key="item" :title="item" />
+        <BoxCard v-for="item in doneList" :key="item" :title="item" :getCardList="getCardList" />
       </div>
     </div>
     <el-dialog title="添加卡片" :visible.sync="dialogFormVisible">

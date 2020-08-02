@@ -1,5 +1,5 @@
 <template>
-  <div class="box-card" :title="title">
+  <div class="box-card" :title="title" ref='box-card'>
     <el-card>
       <div slot="header" class="clearfix">
         <span>{{ title || "标题" }}</span>
@@ -40,7 +40,8 @@ export default {
   props: {
     title: String,
     content: String,
-    cardType: Number
+    cardType: String,
+    getCardList: Function
   },
   data () {
     return {
@@ -50,17 +51,15 @@ export default {
   computed: {
     ...mapGetters(['projectId'])
   },
+  created () {
+  },
   methods: {
     deleteCard () {
-      fetch('/api/task', {
+      fetch(`/api/task?project_id=${this.projectId}&task_name=${$('.box-card').attr('title')}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          project_id: this.projectId,
-          task_name: $('.box-card').attr('title')
-        })
+        }
       }).then(res => res.json())
         .then(json => {
           if (json.message) {
@@ -69,6 +68,7 @@ export default {
               type: 'success',
               center: true
             })
+            this.getCardList($('.box-card').parent()[0].id)
           } else {
             this.$message({
               message: '删除失败',
