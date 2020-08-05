@@ -105,18 +105,18 @@ export default {
   mounted () {
     this.drake = dragula(Array.from($('.grid-content')), {
       isContainer: function (el) {
-        return false // 点击和拖动都会触发，drake.containers元素将被考虑
+        return false
       },
       moves: function (el, source, handle, sibling) {
-        return true // 一直能拖动，拖动时触发
+        return true
       },
       accepts: function (el, target, source, sibling) {
-        return true // 元素可以放在任何`container`中
+        return true
       },
       invalid: function (el, handle) {
-        return false // 默认情况下不会阻止任何拖动
+        return false
       },
-      direction: 'vertical', // 元素的排放方向
+      direction: 'vertical',
       copy: false, // 拖动的元素是否为副本
       copySortSource: false, // 复制的源容器重新排序
       revertOnSpill: false, // 是否将拖到容器外的元素放回原处
