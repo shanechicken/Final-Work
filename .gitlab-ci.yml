@@ -11,7 +11,7 @@ build:
   only:
     - master
   script:
-    - cd ../../root/front-end/kanban
+    - cd root/front-end/kanban
     - npm install
     - npm run build
   tags: 
