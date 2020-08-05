@@ -33,3 +33,51 @@ flake8 –ignore E501 Kanban_api.py
 出现的错误/警告都是因为代码没有按照PEP8代码风格编写，并没有其他形式的错误。
 
 ## 前端Javascript代码
+
+Vue-cli自带ESLint代码检测插件，用于规范代码风格
+
+安装
+
+![image-20200805010725579](images/image-20200805010725579.png)
+
+运行
+
+![image-20200805010817053](images/image-20200805010817053.png)
+
+有一个小错误，可忽略（加上/* eslint-disable no-new */注释）
+
+
+
+使用Flow可以进行静态类型检查
+
+安装
+
+![image-20200805011053764](images/image-20200805011053764.png)
+
+在package.json中加入下面的脚本
+
+![image-20200805011133900](images/image-20200805011133900.png)
+
+同时还要安装babel编译器，将flow的类型检查代码从代码中剥离
+
+![image-20200805011159237](images/image-20200805011159237.png)
+
+在babel配置文件.babelrc中加入
+
+![image-20200805011217834](images/image-20200805011217834.png)
+
+初始化
+
+![image-20200805011240733](images/image-20200805011240733.png)
+
+在 .flowconfig 中加入一些配置（忽略某些文件）
+
+![image-20200805011312172](images/image-20200805011312172.png)
+
+在需要检测的文件加入注释`//@flow`或者`/*@flow*/`
+
+运行
+
+![image-20200805011455040](images/image-20200805011455040.png)
+
+未发现错误，可以正常运行
